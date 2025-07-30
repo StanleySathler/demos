@@ -21,6 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:vitest": "vitest run",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -40,5 +41,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "msw": "^2.10.4",
+    "vitest": "^3.2.4"
   }
 }
